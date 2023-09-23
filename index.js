@@ -1,4 +1,4 @@
-
+//when button ic clicked the following function gets triggered
 function playersDice() {
     var player1DiceNumber = randomNumberGenerator();
     var player2DiceNumber = randomNumberGenerator();
@@ -18,7 +18,7 @@ function playersDice() {
     }
     
 }
-
+//creating a random number between 1 an 6
 function randomNumberGenerator() {
     var createRandomNum = Math.floor(Math.random() * 6) + 1;
     return createRandomNum;
