@@ -1,7 +1,3 @@
-//calling multiple functions on page load
-window.onload = function () {
-    playersDice();
-}
 
 function playersDice() {
     var player1DiceNumber = randomNumberGenerator();
